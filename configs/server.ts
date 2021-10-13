@@ -6,7 +6,8 @@ import Config from "./database";
 const config: serverConfig =  {
     connection: Connection(Config),
     port: 8000,
-    rootPath: '/'
+    rootPath: '/',
+    CORSWhitelist: ['http://localhost:3000']
 }
 
 export default config

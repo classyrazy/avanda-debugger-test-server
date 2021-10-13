@@ -3,7 +3,7 @@ import {Request, Response} from "@avanda/http";
 
 export default class LoggedUserOnly implements Middleware{
     validate(res: Response, req: Request): boolean {
-        return false;
+        return true;
     }
     onFailure(res: Response, req: Request): Response {
         // fall back response

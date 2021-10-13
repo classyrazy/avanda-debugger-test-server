@@ -11,5 +11,5 @@ export default class Blog extends Model{
     @Column.int({
         references: new User
     })
-    user_id?:string;
+    user_id?:number;
 }

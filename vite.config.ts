@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite';
 import { VitePluginNode } from 'vite-plugin-node';
 import serverConfig from "./configs/server"
-import eslintPlugin from '@nabla/vite-plugin-eslint';
 export default defineConfig({
     // ...vite configures
     server: {
@@ -36,8 +35,7 @@ export default defineConfig({
             // like Nestjs (esbuild dont support 'emitDecoratorMetadata' yet)
             tsCompiler: 'esbuild',
 
-        }),
-        eslintPlugin()
+        })
 
     ]
 });

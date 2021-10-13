@@ -5,11 +5,13 @@ import LoggedUserOnly from "../middlewares/LoggedUserOnly";
 
 export default class User extends Controller {
     model: Model
-    @Get(
-        new LoggedUserOnly()
-    )
-    async get(res,req){
+    @Post()
+    async add(response: Response, request: Request): Promise<Response> {
+        return super.add(response, request);
+    }
 
-        return res.success('hello world')
+    login(res: Response){
+
+        return res.success('login successful',this.model?.first())
     }
 }

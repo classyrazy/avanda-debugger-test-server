@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@avanda/app": "^0.10.3",
+    "@avanda/app": "^0.10.4",
     "@avanda/cli": "^0.10.5",
     "@avanda/core": "^0.9.0",
     "@avanda/error": "^0.2.0",
-    "@avanda/http": "^0.1.16",
+    "@avanda/http": "^0.1.25",
     "@avanda/orm": "^0.1.2",
     "@nabla/vite-plugin-eslint": "^1.3.2"
   },
