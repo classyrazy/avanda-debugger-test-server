@@ -3,6 +3,7 @@ import { VitePluginNode } from 'vite-plugin-node';
 import serverConfig from "./configs/server"
 export default defineConfig({
     // ...vite configures
+    mode:'development',
     server: {
         // vite server configs, for details see [vite doc](https://vitejs.dev/config/#server-host)
         port: parseInt(serverConfig.port as string),
@@ -33,9 +34,9 @@ export default defineConfig({
             // by default this plugin is using vite default ts compiler which is esbuild
             // 'swc' compiler is supported to use as well for frameworks
             // like Nestjs (esbuild dont support 'emitDecoratorMetadata' yet)
-            tsCompiler: 'esbuild',
+            tsCompiler: 'esbuild'
 
-        })
+        }),
 
     ]
 });
