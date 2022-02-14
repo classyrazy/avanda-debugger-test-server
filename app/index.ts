@@ -1,4 +1,5 @@
 import { Query } from "@avanda/http";
+import {Env} from "@avanda/app";
 
 import Models from "./models/.boot"
 import Controllers from "./controllers/.boot"
@@ -12,8 +13,12 @@ async function boot() {
          Controllers
      )
 
-    return app.getServerInstance()
-    // app.listen()
+    console.log({env: Env.get('NODE_ENV')})
+    if (Env.get('NODE_ENV') === 'development'){
+        return app.getServerInstance()
+    }else{
+        app.listen()
+    }
 }
 
 

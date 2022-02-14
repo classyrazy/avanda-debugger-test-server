@@ -1,7 +1,9 @@
 import { defineConfig } from 'vite';
 import { VitePluginNode } from 'vite-plugin-node';
 import serverConfig from "./configs/server"
+// import vitePluginString from 'vite-plugin-string'
 export default defineConfig({
+
     // ...vite configures
     mode:'development',
     server: {

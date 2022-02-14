@@ -1,6 +1,6 @@
 import { Middleware, Request, Response } from "@avanda/http";
 import User from "../models/User";
-export default class LoggedUserOnly implements Middleware{
+export default class ShouldHaveActiveSession implements Middleware{
     async boot(res: Response,req: Request) {
 
         try {
@@ -15,9 +15,9 @@ export default class LoggedUserOnly implements Middleware{
 
             req.setAttr('user',user)
 
-            return !!session?.user_id && !!user && session?.auth_stage == 'logged-in';
+            return !!session?.user_id && !!user;
         }catch (e) {
-            return res.error('You are not logged in')
+            return res.error('Couldn\'t find any active session')
         }
     }
 

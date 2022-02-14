@@ -1,13 +1,13 @@
 import {serverConfig} from "@avanda/app";
 import {Connection} from "@avanda/app"
 import Config from "./database";
-
+import {Env} from "@avanda/app";
 
 const config: serverConfig =  {
     connection: Connection(Config),
-    port: 8000,
+    port: Env.get('PORT',8000),
     rootPath: '/',
-    CORSWhitelist: ['http://localhost:3000']
+    CORSWhitelist: Env.get<string>('CORS_WHITELIST',"http://localhost:3000,http://localhost:4000,http://localhost:9000").split(',')
 }
 
 export default config
