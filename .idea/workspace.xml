@@ -2,60 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0924dbe-8e33-47db-b57b-f7807fe09ba3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mail-templates/base.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mail-templates/email-veriff.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mail-templates/password-retrieval.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mail-templates/shipment-notification.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/middlewares/AdminOnly.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/middlewares/ShouldHaveActiveSession.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/middlewares/forms/ValidatePasswordReset.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/middlewares/forms/ValidatePasswordRetrieval.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/middlewares/forms/ValidateUpdatePassword.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/middlewares/forms/ValidateWithdrawal.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Address.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Bank.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/BankAccount.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Wallet.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/seeders/.boot.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/seeders/Address.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/seeders/BankAccount.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/seeders/User.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/category-imgs/Google-Play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/category-imgs/download.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/category-imgs/dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/category-imgs/istockphoto-1217649450-612x612.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/category-imgs/sm-egg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/category-imgs/sm-feeds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/category-imgs/sm-fish.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/category-imgs/sm-goat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/category-imgs/sm-hen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/product-imgs/download.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/product-imgs/istockphoto-1217649450-612x612.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/product-imgs/pigs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/product-imgs/test-product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tyfarms-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/avanda-basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/commands/.boot.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/commands/.boot.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/commands/Hello.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/.boot.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/.boot.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/User.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/middlewares/LoggedUserOnly.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/middlewares/LoggedUserOnly.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/middlewares/forms/ValidateLogin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/middlewares/forms/ValidateLogin.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/middlewares/forms/ValidateRegistration.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/middlewares/forms/ValidateRegistration.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/.boot.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/.boot.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/User.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avanda.ts" beforeDir="false" afterPath="$PROJECT_DIR$/avanda.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/configs/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +37,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644480852984</updated>
-      <workItem from="1644480866765" duration="4306000" />
+      <workItem from="1644480866765" duration="5612000" />
     </task>
     <servers />
   </component>
