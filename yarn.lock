@@ -86,10 +86,10 @@
   dependencies:
     "chalk" "^4.1.2"
 
-"@avanda/http@^0.3.33":
-  "integrity" "sha512-RneBsX1/zZ//EhFzoPtcp+EHE+1ixr+gVrEVn23yS9hT+DkCK8xKl0jj4akapXsM1ZoxExjP+HaGXx2OjkMClw=="
-  "resolved" "https://registry.npmjs.org/@avanda/http/-/http-0.3.33.tgz"
-  "version" "0.3.33"
+"@avanda/http@^0.3.34":
+  "integrity" "sha512-Hvh8QUMEY32f1HejgvNM1htW8w9QrVeF/2WHrkUqerZEUNwBED1qr//vPPsqahwBMIc/fN3l7oeX7Dv5TwDJqw=="
+  "resolved" "https://registry.npmjs.org/@avanda/http/-/http-0.3.34.tgz"
+  "version" "0.3.34"
   dependencies:
     "@avanda/app" "^1.9.49"
     "@avanda/core" "0.0.7"
