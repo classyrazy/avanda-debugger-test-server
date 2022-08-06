@@ -1,0 +1,1 @@
+{ "watch": ["./"], "ext": ".ts", "exec": "esno app/index.ts" }
