@@ -5,9 +5,11 @@ import Seeders from "./app/seeders/.boot"
 import Commands from "./app/commands/.boot"
 import {Connection} from "@avanda/app"
 import Config from "./configs/database"
+import { Model } from "@avanda/orm";
+import databaseConfig from "./configs/database";
 
 
-
+Model.setConnection(Connection(databaseConfig))
 async function boot() {
     return Avanda(
         Commands,
