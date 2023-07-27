@@ -1,12 +1,22 @@
-import {Seeder} from "@avanda/orm"
+import { Seeder } from "@avanda/orm"
 import User from "../models/User"
-import {Hash} from "@avanda/app";
-export default class implements Seeder{
+import { useQuickTraits } from "../utils/quickTraits"
+
+export default class implements Seeder {
     async run(faker: Faker.FakerStatic): Promise<void> {
-        await new User().create({
-                    email:faker.internet.email(),
-                    password: await Hash.make(faker.internet.password()),
-                    full_name: faker.name.firstName(),
-                })
+        const { generateNanoId } = useQuickTraits()
+        await new User().createBulk([
+            /*Create multiple data here*/
+            {
+                uuid: generateNanoId(),
+                username: "JohnDoe",
+                email: faker.internet.email(),
+            },
+            {
+                uuid: generateNanoId(),
+                username: faker.internet.userName(),
+                email: faker.internet.email(),
+            }
+        ])
     }
 }
